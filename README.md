@@ -7,6 +7,6 @@ docker build -t francis-application:latest .
 
 docker compose up
 
-Swagger Docs
+### Swagger Docs
 
 http://localhost:8080/swagger-ui/index.html
