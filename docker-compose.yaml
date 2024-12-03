@@ -1,0 +1,11 @@
+version: '2'
+services:
+  application_service:
+    image: francis-application:latest
+    container_name: francis-application
+    restart: "on-failure"
+    mem_limit: 768M
+    ports:
+      - "8080:8080"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
